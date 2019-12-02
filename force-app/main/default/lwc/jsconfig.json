@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/forEachDemo": [
+                "forEachDemo/forEachDemo.js"
+            ],
+            "c/getterDemo": [
+                "getterDemo/getterDemo.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/publicReactiveProp_Demo": [
+                "publicReactiveProp_Demo/publicReactiveProp_Demo.js"
+            ],
+            "c/renderHtmlElement_Demo": [
+                "renderHtmlElement_Demo/renderHtmlElement_Demo.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
